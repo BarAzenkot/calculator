@@ -88,37 +88,30 @@ createCalculator = () => {
   $(".calc-row:eq(1) > .button:lt(2)").addClass("orange");
   $(".calc-row:eq(1) > .button:eq(0)").html("C");
   $(".calc-row:eq(1) > .button:eq(1)").html("CE");
-  $(".calc-row:eq(1) > .button:eq(2)").addClass("backspace");
-  $(".calc-row:eq(1) > .button:eq(2)").html("Back");
-  $(".calc-row:eq(1) > .button:eq(3)").addClass("plus-minus");
-  $(".calc-row:eq(1) > .button:eq(3)").html("+/-");
+  $(".calc-row:eq(1) > .button:eq(2)").addClass("backspace").html("Back");
+  $(".calc-row:eq(1) > .button:eq(3)").addClass("plus-minus").html("+/-");
   $(".calc-row:eq(1) > .button:eq(4)").html("%");
 
   // Row No.2
   $(".calc-row:eq(2) > .button:eq(0)").html("7");
   $(".calc-row:eq(2) > .button:eq(1)").html("8");
   $(".calc-row:eq(2) > .button:eq(2)").html("9");
-  $(".calc-row:eq(2) > .button:eq(3)").addClass("divice");
-  $(".calc-row:eq(2) > .button:eq(3)").html("/");
+  $(".calc-row:eq(2) > .button:eq(3)").addClass("divice").html("/");
   $(".calc-row:eq(2) > .button:eq(4)").html("sqrt");
 
   // Row No.3
   $(".calc-row:eq(3) > .button:eq(0)").html("4");
   $(".calc-row:eq(3) > .button:eq(1)").html("5");
   $(".calc-row:eq(3) > .button:eq(2)").html("6");
-  $(".calc-row:eq(3) > .button:eq(3)").addClass("multiply");
-  $(".calc-row:eq(3) > .button:eq(3)").html("*");
-  $(".calc-row:eq(3) > .button:eq(4)").addClass("inverse");
-  $(".calc-row:eq(3) > .button:eq(4)").html("sqrt");
+  $(".calc-row:eq(3) > .button:eq(3)").addClass("multiply").html("*");
+  $(".calc-row:eq(3) > .button:eq(4)").addClass("inverse").html("sqrt");
 
   // Row No.4
   $(".calc-row:eq(4) > .button:eq(0)").html("1");
   $(".calc-row:eq(4) > .button:eq(1)").html("2");
   $(".calc-row:eq(4) > .button:eq(2)").html("3");
-  $(".calc-row:eq(4) > .button:eq(3)").addClass("minus");
-  $(".calc-row:eq(4) > .button:eq(3)").html("-");
-  $(".calc-row:eq(4) > .button:eq(4)").addClass("pi");
-  $(".calc-row:eq(4) > .button:eq(4)").html("PI");
+  $(".calc-row:eq(4) > .button:eq(3)").addClass("minus").html("-");
+  $(".calc-row:eq(4) > .button:eq(4)").addClass("pi").html("PI");
 
   // Row No.5
   $(".calc-row:eq(5) > .button:eq(0)").addClass("zero").html("0");
